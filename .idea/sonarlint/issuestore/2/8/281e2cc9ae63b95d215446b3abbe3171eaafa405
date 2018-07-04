@@ -1,0 +1,17 @@
+
+V
+squid:S1064"9Replace this use of System.out or System.err by a logger.(ü£œ8á³•Æ,
+Ysquid:S2696%"6Make the enclosing method "static" or remove this set.(ÚªŒ¬ÿÿÿÿÿ8á³•Æ,
+¤%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8Ç‘˜Æ,
+U
+squid:S106+"9Replace this use of System.out or System.err by a logger.(óÀÚ#8á³•Æ,
+nsquid:S1450"PRemove the "a" field and declare it as a local variable in the relevant methods.(ıİÌØ8¬­™Æ,
+V
+squid:S106!"9Replace this use of System.out or System.err by a logger.(ÿéÁí8á³•Æ,
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¾˜ÿø8¥º—Æ,
+Msquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8á³•Æ,
+Fsquid:S11488"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8á³•Æ,
+bsquid:S2095 "DUse try-with-resources or close this "Socket" in a "finally" clause.(½“•8á³•Æ,
+Tsquid:S2696("6Make the enclosing method "static" or remove this set.(Ş›Ï¿8á³•Æ,
+Fsquid:S1148>"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8²†–Æ,
+Csquid:S1068"%Remove this unused "a" private field.(ıİÌØ8¬­™Æ,

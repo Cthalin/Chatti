@@ -1,0 +1,10 @@
+
+Gsquid:S1068"*Remove this unused "reader" private field.(ã·îl8ûÜµ€Æ,
+Esquid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ûÜµ€Æ,
+hsquid:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(¸åºÕ8–Æ,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ØĞÓµúÿÿÿÿ8¥‘‚Æ,
+Fsquid:S1148!"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¥¼°€Æ,
+Fsquid:S1148%"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8ğÉƒÆ,
+Msquid:S1068"*Remove this unused "writer" private field.(Ñ »«ıÿÿÿÿ8ûÜµ€Æ,
+Xsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8¦—ÿ€Æ,

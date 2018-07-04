@@ -1,0 +1,9 @@
+
+Fsquid:S1148)"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ù¤¬€Æ,
+rsquid:S1450
+"URemove the "reader" field and declare it as a local variable in the relevant methods.(ã·îl8¼€ª€Æ,
+[
+squid:S106 "9Replace this use of System.out or System.err by a logger.(÷ë…™úÿÿÿÿ8Å¤©€Æ,
+xsquid:S1450	"URemove the "writer" field and declare it as a local variable in the relevant methods.(Ñ »«ýÿÿÿÿ8¼€ª€Æ,
+Tsquid:S2696"6Make the enclosing method "static" or remove this set.(Þ›Ï¿8¼€ª€Æ,
+Ysquid:S2696"6Make the enclosing method "static" or remove this set.(ÚªŒ¬ÿÿÿÿÿ8¼€ª€Æ,
