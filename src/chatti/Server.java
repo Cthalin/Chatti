@@ -1,5 +1,7 @@
 package chatti;
 
+import javax.swing.*;
+import java.awt.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -21,9 +23,14 @@ public class Server {
     final int LEVEL_ERROR = 1;
     final int LEVEL_NORMAL = 0;
 
+    private JFrame serverFrame;
+    private JPanel serverPanel;
+    private JTextArea textArea_status;
+
     public static void main(String[] args) {
 
         Server s = new Server();
+        s.createGui();
         if(s.runServer()){
             s.listenToClients();
         } else {
@@ -106,6 +113,22 @@ public class Server {
                 PrintWriter writer = (PrintWriter) it.next();
                 writer.print(message+"\n");
                 writer.flush();
+            }
         }
-    }
+
+        public void createGui(){
+            serverFrame = new JFrame("Chatti Server");
+            serverFrame.setSize(300,80);
+            serverPanel = new JPanel();
+            textArea_status = new JTextArea();
+            textArea_status.setEditable(false);
+            textArea_status.append("Server running on port "+portNumber);
+            serverPanel.add(textArea_status);
+
+            //if(runServer()){serverFrame.setTitle("Chatti Server - running...");}
+
+            serverFrame.getContentPane().add(BorderLayout.CENTER,serverPanel);
+            serverFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            serverFrame.setVisible(true);
+        }
 }
