@@ -104,7 +104,7 @@ public class Server {
 
             while (it.hasNext()){
                 PrintWriter writer = (PrintWriter) it.next();
-                writer.print(message);
+                writer.print(message+"\n");
                 writer.flush();
         }
     }
